@@ -1,0 +1,159 @@
+// Place all the styles related to the page controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+img{
+	margin: auto;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+main{
+	width: 90%;
+	height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer{
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#000;
+}
+
+footer p{
+	text-align: center;
+	padding-top: 10px;
+}
+
+/***************************************ABOUT*********************************************/
+#textabout{
+	text-align: center;
+	padding: 10%;
+	padding-top: 0;
+  margin-top: 30px;
+}
+
+#textabout p{
+	background-color: rgba(3, 3, 255, 0.1);
+  border-radius: 10px;
+}
+
+
+/***************************************CONTACT*********************************************/
+
+#maincontact{
+	padding: 10%;
+	padding-top: 2%;
+}
+
+#textcontact{
+	text-align: center;
+	float:left;
+	width: 45%;
+	height: 100%;
+	background-color: rgba(3, 3, 255, 0.1);
+  border-radius: 10px;
+}
+
+#formcontact{
+	float: right;
+	width: 45%;
+	height: 100%;
+}
+
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #3596e0;
+  left: initial;
+  font-size: 14px;
+}
+
+
+
+.faqHeader {
+        font-size: 27px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .panel-heading [data-toggle="collapse"]:after {
+        font-family: 'Glyphicons Halflings';
+        content: "e072"; /* "play" icon */
+        float: right;
+        color: #F58723;
+        font-size: 12px;
+        line-height: 22px;
+        /* rotate "play" icon from > (right arrow) to down arrow */
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        text-align: center;
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #454444;
+        text-align: center;
+    }
